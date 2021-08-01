@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6b34e76-51c4-40df-846a-928597562621" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission2/core/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/mission2/core/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission2/handler/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/mission2/handler/hello.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission2/router/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/mission2/router/hello.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission2/service/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/mission2/service/hello.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,5 +97,16 @@
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/mission2/service/hello.go</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

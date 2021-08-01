@@ -69,6 +69,5 @@ func Run() error {
 	if err := eg.Wait(); err != nil && !errors.Is(err, context.Canceled) {
 		return err
 	}
-
 	return nil
 }
