@@ -7,6 +7,7 @@ import (
 	"os/signal"
 	"sync"
 	"syscall"
+	"time"
 
 	"golang.org/x/sync/errgroup"
 
@@ -33,7 +34,9 @@ func Run() error {
 		srv := srv
 		eg.Go(func() error {
 			<-ctx.Done()
-			return srv.Stop(ctx)
+			stopCtx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
+			defer cancel()
+			return srv.Stop(stopCtx)
 		})
 		wg.Add(1)
 		eg.Go(func() error {
