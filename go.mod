@@ -3,6 +3,7 @@ module gowork
 go 1.16
 
 require (
+	github.com/Terry-Mao/goim v0.0.0-20210523140626-e742c99ad76e
 	github.com/gin-gonic/gin v1.7.2
 	github.com/go-redis/redis/extra/redisotel v0.3.0
 	github.com/go-redis/redis/v8 v8.11.3
